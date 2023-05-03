@@ -90,5 +90,5 @@ function App() {
 export default App;
 
 //------------------------------------------------------------------------------------------
-
+//See the shopping car example project built here
 //
