@@ -4,6 +4,7 @@ import Items from "./components/Items";
 import Navbar from "./components/Navbar";
 import { CustomItemContext, itemContext } from "./ItemContext";
 import totalContext from "./totalContext";
+import CartModal from "./components/CartModal";
 
 function App() {
   const [total, setTotal] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <div className="App">
         <h2>Shopping Cart</h2>
         <Navbar />
+        <CartModal />
         <Items />
       </div>
     </CustomItemContext>
